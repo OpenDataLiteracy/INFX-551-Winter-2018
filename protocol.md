@@ -85,14 +85,14 @@ To normalize the data and remove this information, I choose to eliminate nine di
 
 I believe there are a number of ways in which the release of public records - of the type that were posted to MuckRock and used in this exercise - could be improved. First, data that are made available to the public should come with a set of license, terms of use, and structured metadata. This would make understanding the origins of this data much easier, and eliminate guesswork that goes into drawing inferences from under-described variables. Second, as discussed through the quarter, there is a need to use open and non-proprietary formats so that data can be reliably archived. Each of these datasets were provided by government bodies (and MuckRock) in Excel formatted tables. Third, and most importantly the data that were generated as the result of public records request were never made available by LA county, or NYC open data program. It seems like an incredibly large waste of government resources to provide data to the public ONLY when requested. Each dataset could have been easily deposited in the city's open data repository for other citizens to discover and use. 
 
-This assignment also brought to light the need to coordinate and plan for documentation at varying levels of granularity. For example - the POD standard allowed for easily creating file level metadata, but did not clearly have a way to create collection level metadata that would describe all six datasets. I also sought a better way to connect individual variables described in the data dictionary to the structured metadata. This is a feature of the DDI metadata standard for social science data, and I believe future versions of POD should also include this capability. 
+This assignment also brought to light the need to coordinate and plan for documentation at varying levels of granularity. For example - the POD standard allowed for easily creating file level metadata, but did not clearly have a way to create collection level metadata that would describe all six datasets. I also sought a better way to connect individual variables described in the data dictionary to the structured metadata. This is a feature of the DDI metadata standard for social science data, and I believe future versions of POD should also include the capability to create formal representations of data variables in structured metadata (as attribute-value pairs).  
  
 
 **Works Cited** 
 
 [1] - New York: https://www.dos.ny.gov/coog/foil2.html and California: http://www.leginfo.ca.gov/cgi-bin/displaycode?section=gov&group=06001-07000&file=6250-6270.5 
 
-[2] We Analyzed Every Dog Registration in New York: https://www.nytimes.com/interactive/2018/02/08/realestate/dogs-of-new-york.html 
+[2] We Analyzed Every Dog Registration in New York https://www.muckrock.com/news/archives/2016/may/17/nacho-chihuahua-what-people-name-their-dogs-new-yo/ 
 
 [3] LA Dog License Application http://www.laanimalservices.com/wp-content/uploads/2011/06/DogLicenseApplication-English.pdf
 

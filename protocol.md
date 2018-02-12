@@ -6,7 +6,8 @@ Course: INFX 551 - Foundations of Data Curation
 
 # Protocol Report 
 
-**Abstract**
+**Abstract** 
+
 This protocol addresses the curation of licensing data for pets that reside in the two largest cities in the USA: Los Angeles, CA; and New York City, NY. While a larger cache of data related to all licensed pets is available in the `Raw` data folders, this protocol focuses specifically on normalizing and providing documentation about dog licensing data obtained from the two cities. 
 
 These two cities were chosen for strategic reasons; both are located in states with Freedom of Information laws that require the release of public records [1], and they represent two geographically, culturally, and environmentally distinct areas to compare pet ownership. Further, the data provided in this repository allows one to explore the thesis put forward by Stefanos Chen that dog ownership can be used as a proxy to neighborhood gentrification. That is, patterns in dog breed ownership may correlate with certain owner demographics, and tracing licensing data across the geography of a large city can result in a deeper understanding of human migratory patterns [2].   
@@ -33,6 +34,7 @@ In total then, there will be six files total available, three from each city:
 **Documentation** 
 
 **Explanation**
+
 This protocol uses the V1 [Project Open Data (POD)](https://project-open-data.cio.gov/v1.1/schema/ ) schema to create structured metadata at file level. POD was chosen because the data being curated are from local governments, and the audience is a general public. POD was designed specifically to provide attribute-value pairs that help a general public make use of open government data. The POD standard requires 10 attribute value pairs - all of which were included in the structured metadata for these datasets - with the exception of bureauCode and programCode - both of which do not apply to these datasets. 
 
 Four 'optional' attributes from the POD metadata schema were included: 
@@ -79,6 +81,7 @@ NY:
 - NY_PetLicenseData_Normalized_01012018.tsv Normalized data with 14 variables 
 
 **Reflection** 
+
 In the chapter "Conceptualizing Data" Rob Kitchin differentiates data, and by extension data curation tasks, along a number of lines: spatial and temporal resolution; ethical; philosophical; economic and political, etc [5]. The data that I choose to curate for this protocol appear, at first glance, to be ethically and politically neutral. But, even initial analysis necessary to explore the data demonstrated some curious trends, and troubling public information disclosures. For example, the NYC open data portal published a dataset that included nine digit zip-codes that allow for fairly granular location data. When combined with the FOIA dataset, which not only includes breed, but also name (oten including owners who list their dog's last name) there is the potential to identify owners by their pets - this gets even more accurate if there is a known rare breed owner. 
 
 To normalize the data and remove this information, I choose to eliminate nine digit zip codes (which may in fact make the data less valuable for some research purposes) as well as last names that were included with dogs license information. This goes against some of the literature that we read about "data quality" in this course, including recommendations on long term data storage and provenance [6]. However, as Floridi argues privacy should trump accuracy in the public record [7]. 

@@ -1,0 +1,45 @@
+{
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "dataset": [
+    {
+      "accessLevel": "public",
+      "bureauCode": [
+        "na"
+      ],
+      "contactPoint": {
+        "fn": "Stephan Sincular",
+        "hasEmail": "stephsinc@nyc.gov"
+      },
+      "description": "This dataset provides national statistics about dog registrations in the city of NY.",
+      "distribution": [
+        {
+          "downloadURL": "http:/data.nyc.gov/petlicenses",
+          "mediaType": "text/csv"
+        },
+        {
+          "downloadURL": "http:/data.nyc.gov/petlicenses/zip",
+          "mediaType": "application/zip"
+        },
+        {
+          "accessURL": "https://data.agency.gov/api/widgets-statistics/"
+        }
+      ],
+      "identifier": "http://dx.doi.org/10.7927/H45X26V8",
+      "keyword": [
+        "pets",
+        "licenses",
+        "regulatory affairs"
+      ],
+      "modified": "2017-03-09T12:00:00Z",
+      "programCode": [
+        "018:001"
+      ],
+      "publisher": {
+        "name": "New York City Open Data Portal",
+        "subOrganizationOf": {
+          "name": "New York City Department of Public Affairs",
+          "subOrganizationOf": {
+            "name": "New York City",
+          }
+        }
+}

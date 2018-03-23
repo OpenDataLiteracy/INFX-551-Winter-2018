@@ -5,7 +5,7 @@ Date last revised: 01.10.2018
 ---
 
 
-##INFX 551 - Data Curation
+# INFX 551 - Foundations of Data Curation
 
 **Course Description**      
 Data curation is the active and ongoing management of data throughout a lifecycle of use. This course provides a practical introduction to the field. It is meant to give you survey of topics for libraries, public institutions, and private corporations that are engaged in stewarding data for reuse. Throughout the quarter we will read, discuss, and engage in activities that are designed to give you a competency in data curation topics. Leaving this course you will be able to employ the correct vocabulary in describing data curation challenges, identify and select from a range of potential approaches to solving those challenges, and finally, take some initial steps to implement an appropriate solution.
